@@ -18,7 +18,22 @@ function tocaSomPuff(){
 }
 document.querySelector('.tecla_puff').onclick = tocaSomPuff;
 
-function tocaSomSplash(){
+function tocaSomSlash(){
   document.querySelector('#som_tecla_splash').play();
 }
-document.querySelector('tecla_splash').onclick = tocaSomSplash;
+document.querySelector('.tecla_splash').onclick = tocaSomSlash;
+
+function tocaSomToim(){
+  document.querySelector('#som_tecla_toim').play();
+}
+document.querySelector('.tecla_toim').onclick = tocaSomToim;
+
+function tocaSomPsh(){
+  document.querySelector('#som_tecla_psh').play();
+}
+document.querySelector('.tecla_psh').onclick = tocaSomPsh;
+
+function tocaSomTic(){
+  document.querySelector('#som_tecla_tic').play();
+}
+document.querySelector('.tecla_tic').onclick = tocaSomTic;
