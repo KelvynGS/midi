@@ -21,7 +21,7 @@ document.querySelector('.tecla_puff').onclick = tocaSomPuff;
 function tocaSomSlash(){
   document.querySelector('#som_tecla_splash').play();
 }
-document.querySelector('.tecla_Splash').onclick = tocaSomSplash;
+document.querySelector('.tecla_Splash').onclick = tocaSomSlash;
 
 function tocaSomToim(){
   document.querySelector('#som_tecla_toim').play();
